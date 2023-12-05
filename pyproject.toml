@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "amir-django"
+version = "0.1.0"
+description = ""
+authors = ["Vahid Al <thevahidal@gmail.com>"]
+readme = "README.md"
+packages = [{include = "amir_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0"
+ipython = "^8.18.1"
+django-extensions = "^3.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
